@@ -3,15 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_thur1214_pm"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.rich.projectthur1209pm.Thur1214PM">
+    tools:context="com.example.rich.projectthur1209pm.Thur1214PM"
+    android:layout_height="wrap_content">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="@string/Hello_World_new"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
 </RelativeLayout>
